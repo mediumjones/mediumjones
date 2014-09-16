@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300italic);
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -76,18 +80,17 @@ body {
 }
 
 h1 {
-  font-family: 'Sentinel SSm A', 'Sentinel SSm B';
-  font-weight: 800;
-  font-style: normal;
-  font-size: 26pt;
-  line-height: 26pt;
-  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 42pt;
+  line-height: 46pt;
   margin: 0 0 20px 0;
   text-align: center;
 }
 
 p {
-  font-family: 'Ideal Sans A', 'Ideal Sans B';
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12pt;
@@ -116,11 +119,11 @@ a:hover {
 }
 
 .tombstone {
-  font-family: 'Sentinel SSm A', 'Sentinel SSm B';
-  font-weight: 800;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
   font-style: normal;
-  font-size: 26pt;
-  line-height: 26pt;
+  font-size: 36pt;
+  line-height: 36pt;
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
