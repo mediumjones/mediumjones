@@ -1,0 +1,138 @@
+body {
+	background: url(../images/bg.jpg) no-repeat;
+	color: #787878;
+	font: 16px/22px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+#wrap {
+	width:1000px;
+	margin:0 auto;
+}	
+#header {
+	width: 1000px;
+	height: 88px;
+	background-image: url(../images/header.png);
+	
+}  	
+#main {
+	float:left;
+	width:678px;
+	min-height: 100px;
+	background: url(../images/mainbg.png) repeat-y;
+
+}
+
+#sidebar {
+	float:right;
+	width:319px;
+	background: url(../images/sidebg.png) repeat-y;
+	border-left: 3px solid #6ebee2;
+}
+#vimeo {
+	width: 653px;
+	height: 365px;
+	padding-left: 25px;
+}
+#logo {
+	width: 294px;
+	height: 300px;
+}
+#signup-btn {
+	width: 294px;
+	height: 62px;
+}
+#latest img{
+	padding: 15px 18px 0;
+}
+#latest a {
+	color: #6ebee2;
+	font-size: 12px;
+	font-style: italic;
+	padding-left: 18px;
+}
+#memberpics {
+	padding: 45px 18px 0;
+	height: 253px;
+}
+
+#memberpics img{
+	padding-top: 15px;
+	padding-bottom: 0;
+	padding-right: 18px;
+}
+
+#signup-sec {
+	border-top: 2px outset #bebebe;
+	margin-top: 25px;
+}
+
+#maintext {
+	padding-left: 25px;
+}
+
+#maintext p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.heading1 {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#quote {
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
+#contact-area {
+	margin-top: 5px;
+	width: 423px;
+	float: left;
+}				
+#contact-area input, #contact-area textarea {
+	width: 236px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 0px 0px 10px;
+}						
+#contact-area textarea {
+	height: 90px;
+}				
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 1px solid #6ebee2;
+}												#contact-area input#submit {
+	width: 70px;
+	float: right;
+	background: #6ebee2;
+	color: #fff;
+	border: 1px solid #e9e9e9;
+	margin-right:3px;
+	margin
+	cursor: pointer;
+	clear: both;
+	margin-top: -7px;
+}				
+#memberinfo {
+	width: 230px;
+	float: right;
+}
+label {
+	float: left;
+	text-align: right;
+	margin-right: 20px;
+	width: 100px;
+	padding-top: 2px;
+}			
+
+#footer {
+	clear:both;
+	background: url(../images/footer.png);
+	width: 1000px;
+	height: 53px;
+}
+#footer p {
+	margin: 5px 0 0;
+}
