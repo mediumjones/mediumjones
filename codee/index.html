@@ -1,384 +1,80 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
-	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+<title>Codee Sans Mono</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="css/codemirror.css">
+<link rel="stylesheet" href="css/theme/base16-dark.css">
 
-	<style type="text/css">
-					body{
-				font-family: 'codee_sansmono';
-							}
-		</style>
+<script src="js/codemirror.js"></script>
+<script src="js/mode/css.js"></script>
+<script src="js/mode/htmlmixed.js"></script>
+<script src="js/mode/javascript.js"></script>
+<script src="js/mode/xml.js"></script>
+<script src="addon/selection/active-line.js"></script>
+<script src="addon/edit/matchbrackets.js"></script>
 
-	<title>Codee Sans Mono Regular Specimen</title>
-	
-	
-	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function() {
-			$('#container').easyTabs({defaultContent:1});
-		});
-	</script>
-</head>
+<style type=text/css>
+  article {
+    height: 100%;
+  }
+  .editor {
+    width: 50%;
+    height: 100%;
+    display: block;
+    border-right: 1px solid black;
+    overflow: hidden;
+  }
 
-<body>
-<div id="container">
-	<div id="header">
-		codee sans mono	</div>
-	<ul class="tabs">
-		<li><a href="#specimen">Specimen</a></li>
-		<li><a href="#layout">Sample Layout</a></li>
-		<li><a href="#glyphs">Glyphs &amp; Languages</a></li>
-		
-	</ul>
-	
-	<div id="main_content">
+  iframe {
+    width: 50%;
+    display: block;
+    height: 100%;
+    border: none;
+  }
+</style>
 
-		
-			<div id="specimen">
-		
-				<div class="section">
-					<div class="grid12 firstcol">
-						<div class="huge">abcde</div>
-					</div>
-				</div>
-		
-				<div class="section">
-					<div class="glyph_range">abcdefghijklmnopqrs tuvwxyz-&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</div>
-				</div>
-				<div class="section">
-					<div class="grid12 firstcol">
-						<table class="sample_table">
-							<tr><td>10</td><td class="size10">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>11</td><td class="size11">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>12</td><td class="size12">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>13</td><td class="size13">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>14</td><td class="size14">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>16</td><td class="size16">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>18</td><td class="size18">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>20</td><td class="size20">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>24</td><td class="size24">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>30</td><td class="size30">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>36</td><td class="size36">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>48</td><td class="size48">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>60</td><td class="size60">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>72</td><td class="size72">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-							<tr><td>90</td><td class="size90">abcdefghijklmnopqrstuvwxyz-&amp;&mdash;&ndash;,.;"/!?&lt;=&gt;_[]{}()@</td></tr>
-						</table>
-				
-					</div>
-			
-				</div>
-		
-		
-		
-								<div class="section" id="bodycomparison">
-
-
-										<div id="xheight">
-				<div class="fontbody">&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;&#xE000;body</div><div class="arialbody">body</div><div class="verdanabody">body</div><div class="georgiabody">body</div></div>
-										<div class="fontbody" style="z-index:1">
-											body<span>Codee Sans Mono</span>
-										</div>
-										<div class="arialbody" style="z-index:1">
-											body<span>Arial</span>
-										</div>
-										<div class="verdanabody" style="z-index:1">
-											body<span>Verdana</span>
-										</div>
-										<div class="georgiabody" style="z-index:1">
-											body<span>Georgia</span>
-										</div>
-
-
-
-								</div>
-		
-		
-				<div class="section psample psample_row1" id="">
-					
-					<div class="grid2 firstcol">
-						<p class="size10"><span>10.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid3">
-						<p class="size11"><span>11.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid3">
-						<p class="size12"><span>12.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid4">
-						<p class="size13"><span>13.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="white_blend"></div>
-					
-				</div>
-				<div class="section psample psample_row2" id="">
-					<div class="grid3 firstcol">
-						<p class="size14"><span>14.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid4">
-						<p class="size16"><span>16.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid5">
-						<p class="size18"><span>18.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-
-					<div class="white_blend"></div>
-
-				</div>
-				
-				<div class="section psample psample_row3" id="">
-					<div class="grid5 firstcol">
-						<p class="size20"><span>20.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					<div class="grid7">
-						<p class="size24"><span>24.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					
-					<div class="white_blend"></div>
-					
-				</div>
-				
-				<div class="section psample psample_row4" id="">
-					<div class="grid12 firstcol">
-						<p class="size30"><span>30.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					<div class="white_blend"></div>
-					
-				</div>
-				
-				
-				
-				<div class="section psample psample_row1 fullreverse">
-					<div class="grid2 firstcol">
-						<p class="size10"><span>10.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid3">
-						<p class="size11"><span>11.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid3">
-						<p class="size12"><span>12.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid4">
-						<p class="size13"><span>13.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="black_blend"></div>
-					
-				</div>
-				
-				<div class="section psample psample_row2 fullreverse">
-					<div class="grid3 firstcol">
-						<p class="size14"><span>14.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid4">
-						<p class="size16"><span>16.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="grid5">
-						<p class="size18"><span>18.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-			
-					</div>
-					<div class="black_blend"></div>
-
-				</div>
-				
-				<div class="section psample fullreverse psample_row3" id="">
-					<div class="grid5 firstcol">
-						<p class="size20"><span>20.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					<div class="grid7">
-						<p class="size24"><span>24.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					
-					<div class="black_blend"></div>
-					
-				</div>
-				
-				<div class="section psample fullreverse psample_row4" id="" style="border-bottom: 20px #000 solid;">
-					<div class="grid12 firstcol">
-						<p class="size30"><span>30.</span>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue.</p>
-					</div>
-					<div class="black_blend"></div>
-					
-				</div>
-				
-				
-				
-				
-			</div>
-			
-			<div id="layout">
-				
-				<div class="section">
-					
-					<div class="grid12 firstcol">
-						<h1>Lorem Ipsum Dolor</h1>
-						<h2>Etiam porta sem malesuada magna mollis euismod</h2>
-						
-						<p class="byline">By <a href="#link">Aenean Lacinia</a></p>
-					</div>
-				</div>
-				<div class="section">
-					<div class="grid8 firstcol">
-						<p class="large">Donec sed odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
-
-						
-						<h3>Pellentesque ornare sem</h3>
-
-						<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
-
-						<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-
-						<p>Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. </p>
-
-						<p>Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. </p>
-
-						<h3>Cras mattis consectetur</h3>
-
-						<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. </p>
-
-						<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
-					</div>
-					
-					<div class="grid4 sidebar">
-						
-						<div class="box reverse">
-							<p class="last">Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-						</div>
-						
-						<p class="caption">Maecenas sed diam eget risus varius.</p>
-
-						<p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
-
-					
-
-						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. </p>
-
-						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
-
-					</div>
-				</div>
-				
-			</div>
-
-
-			
-
-
-
-		<div id="glyphs">
-			<div class="section">
-				<div class="grid12 firstcol">
-			
-				<h1>Language Support</h1>
-				<p>The subset of Codee Sans Mono Regular in this kit supports the following languages:<br />
-			
-									</p>
-				<h1>Glyph Chart</h1>
-				<p>The subset of Codee Sans Mono Regular in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
-				<div id="glyph_chart">
-			
-																														 <div><p>&amp;#13;</p>&#13;</div>
-																				 <div><p>&amp;#32;</p>&#32;</div>
-																				 <div><p>&amp;#33;</p>&#33;</div>
-																				 <div><p>&amp;#34;</p>&#34;</div>
-																				 <div><p>&amp;#38;</p>&#38;</div>
-																				 <div><p>&amp;#40;</p>&#40;</div>
-																				 <div><p>&amp;#41;</p>&#41;</div>
-																				 <div><p>&amp;#44;</p>&#44;</div>
-																				 <div><p>&amp;#45;</p>&#45;</div>
-																				 <div><p>&amp;#46;</p>&#46;</div>
-																				 <div><p>&amp;#47;</p>&#47;</div>
-																				 <div><p>&amp;#58;</p>&#58;</div>
-																				 <div><p>&amp;#59;</p>&#59;</div>
-																				 <div><p>&amp;#60;</p>&#60;</div>
-																				 <div><p>&amp;#61;</p>&#61;</div>
-																				 <div><p>&amp;#62;</p>&#62;</div>
-																				 <div><p>&amp;#63;</p>&#63;</div>
-																				 <div><p>&amp;#64;</p>&#64;</div>
-																				 <div><p>&amp;#91;</p>&#91;</div>
-																				 <div><p>&amp;#93;</p>&#93;</div>
-																				 <div><p>&amp;#95;</p>&#95;</div>
-																				 <div><p>&amp;#97;</p>&#97;</div>
-																				 <div><p>&amp;#98;</p>&#98;</div>
-																				 <div><p>&amp;#99;</p>&#99;</div>
-																				 <div><p>&amp;#100;</p>&#100;</div>
-																				 <div><p>&amp;#101;</p>&#101;</div>
-																				 <div><p>&amp;#102;</p>&#102;</div>
-																				 <div><p>&amp;#103;</p>&#103;</div>
-																				 <div><p>&amp;#104;</p>&#104;</div>
-																				 <div><p>&amp;#105;</p>&#105;</div>
-																				 <div><p>&amp;#106;</p>&#106;</div>
-																				 <div><p>&amp;#107;</p>&#107;</div>
-																				 <div><p>&amp;#108;</p>&#108;</div>
-																				 <div><p>&amp;#109;</p>&#109;</div>
-																				 <div><p>&amp;#110;</p>&#110;</div>
-																				 <div><p>&amp;#111;</p>&#111;</div>
-																				 <div><p>&amp;#112;</p>&#112;</div>
-																				 <div><p>&amp;#113;</p>&#113;</div>
-																				 <div><p>&amp;#114;</p>&#114;</div>
-																				 <div><p>&amp;#115;</p>&#115;</div>
-																				 <div><p>&amp;#116;</p>&#116;</div>
-																				 <div><p>&amp;#117;</p>&#117;</div>
-																				 <div><p>&amp;#118;</p>&#118;</div>
-																				 <div><p>&amp;#119;</p>&#119;</div>
-																				 <div><p>&amp;#120;</p>&#120;</div>
-																				 <div><p>&amp;#121;</p>&#121;</div>
-																				 <div><p>&amp;#122;</p>&#122;</div>
-																				 <div><p>&amp;#123;</p>&#123;</div>
-																				 <div><p>&amp;#125;</p>&#125;</div>
-																				 <div><p>&amp;#160;</p>&#160;</div>
-																				 <div><p>&amp;#173;</p>&#173;</div>
-																				 <div><p>&amp;#8192;</p>&#8192;</div>
-																				 <div><p>&amp;#8193;</p>&#8193;</div>
-																				 <div><p>&amp;#8194;</p>&#8194;</div>
-																				 <div><p>&amp;#8195;</p>&#8195;</div>
-																				 <div><p>&amp;#8196;</p>&#8196;</div>
-																				 <div><p>&amp;#8197;</p>&#8197;</div>
-																				 <div><p>&amp;#8198;</p>&#8198;</div>
-																				 <div><p>&amp;#8199;</p>&#8199;</div>
-																				 <div><p>&amp;#8200;</p>&#8200;</div>
-																				 <div><p>&amp;#8201;</p>&#8201;</div>
-																				 <div><p>&amp;#8202;</p>&#8202;</div>
-																				 <div><p>&amp;#8208;</p>&#8208;</div>
-																				 <div><p>&amp;#8209;</p>&#8209;</div>
-																				 <div><p>&amp;#8210;</p>&#8210;</div>
-																				 <div><p>&amp;#8211;</p>&#8211;</div>
-																				 <div><p>&amp;#8212;</p>&#8212;</div>
-																				 <div><p>&amp;#8239;</p>&#8239;</div>
-																				 <div><p>&amp;#8287;</p>&#8287;</div>
-																				 <div><p>&amp;#57344;</p>&#57344;</div>
-																												</div>	
-				</div>
-		
-		
-			</div>
-		</div>
-		
-		
-		<div id="specs">
-			
-		</div>
-	
-
-	
-	</div>
-</div>
-</body>
+<article>
+  <textarea class="editor" id="code" name="code">
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>HTML5 canvas demo</title>
+    <style>p {font-family: monospace;}</style>
+  </head>
+  <body>
+    <h1>Codee Sans Mono</h1>
+    <p>cool beans</p>
+  </body>
 </html>
+  </textarea>
+  
+  <iframe id=preview>
+  </iframe>
+
+  <script>
+    var delay;
+    // Initialize CodeMirror editor with an html5 canvas preveiew
+    var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
+      mode: 'text/html',
+      lineNumbers: true,
+      styleActiveLine: true,
+      matchBrackets: true,
+      indentUnit: 4,
+      theme: "base16-dark"
+    });
+    editor.on("change", function() {
+      clearTimeout(delay);
+      delay = setTimeout(updatePreview, 300);
+    });
+    
+    function updatePreview() {
+      var previewFrame = document.getElementById('preview');
+      var preview =  previewFrame.contentDocument ||  previewFrame.contentWindow.document;
+      preview.open();
+      preview.write(editor.getValue());
+      preview.close();
+    }
+    setTimeout(updatePreview, 300);
+  </script>
+</article>

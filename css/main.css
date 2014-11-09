@@ -60,7 +60,7 @@ table {
 
 .main {
   *zoom: 1;
-  max-width: 34em;
+  max-width: 38em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -93,8 +93,8 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 12pt;
-  line-height: 16pt;
+  font-size: 14pt;
+  line-height: 18pt;
   margin: 0 0 8pt 0;
 }
 
@@ -113,6 +113,12 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .italic {
   font-style: italic;
 }
@@ -120,6 +126,9 @@ a:hover {
 .closing {
   font-style: italic;
   font-weight: 500;
+  border-top: 1px solid #DDDDDD;
+  padding-top: 15px;
+  margin-top: 24px;
 }
 
 .tombstone {
@@ -261,4 +270,32 @@ footer p {
   font-size: 10pt;
   font-style: italic;
   width: 50%;
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (max-width : 1024px) {
+  .hcs li {
+    display: block;
+    width: 33.333%;
+    margin: -2px auto;
+    float: left;
+  }
+}
+
+/* iPads ----------- */
+@media only screen 
+and (max-width : 768px) {
+  .hcs li {
+    width: 50%;
+  }
+}
+
+/* Smartphones ----------- */
+@media only screen 
+and (max-width : 420px) {
+  .hcs li {
+    width: 100%;
+  }
 }
