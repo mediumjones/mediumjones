@@ -1,0 +1,7 @@
+# Set in Lato
+# Hosted with Digital Ocean and deployed with surge.sh 
+# Dribbble feed jsApp thanks to MediaHACK.# ©2015 Cody Jones
+
+# TECHNOLOGY COLOPHON
+
+# HTML5, CSS3, Modernizr, Normalize, Normalize Open Type

@@ -1,9 +1,0 @@
-# humanstxt.org/
-# Set in Sentinal & Ideal Sans.
-# Hosted with Digital Ocean. 
-# Dribbble feed jsApp thanks to MediaHACK.# ©2014 Cody Jones
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr

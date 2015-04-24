@@ -18,6 +18,7 @@
     height: 100%;
   }
   .editor {
+    font-family: "codee mono", serif;
     width: 50%;
     height: 100%;
     display: block;
@@ -40,7 +41,6 @@
   <head>
     <meta charset=utf-8>
     <title>HTML5 canvas demo</title>
-    <style>p {font-family: monospace;}</style>
   </head>
   <body>
     <h1>Codee Sans Mono</h1>
@@ -48,7 +48,7 @@
   </body>
 </html>
   </textarea>
-  
+
   <iframe id=preview>
   </iframe>
 
@@ -67,7 +67,7 @@
       clearTimeout(delay);
       delay = setTimeout(updatePreview, 300);
     });
-    
+
     function updatePreview() {
       var previewFrame = document.getElementById('preview');
       var preview =  previewFrame.contentDocument ||  previewFrame.contentWindow.document;
